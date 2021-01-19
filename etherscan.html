@@ -1,0 +1,5 @@
+/ example using the expectedimplementation optional parameter
+// the expectedimplementation enforces a check to ensure the returned implementation contract address == address picked
+//// up by the verifier
+curl -d "address=0x1c36485A8ca35A2b0Bfd94cB35dBca2c2e785736&expectedimplementation=0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A"
+"https://api.etherscan.io/api?module=contract&action=verifyproxycontract&apikey=", $ETHERSCAN_TOKEN
